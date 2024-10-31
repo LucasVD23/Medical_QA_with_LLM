@@ -7,4 +7,3 @@ def get_textbooks(dataset_path):
         textbooks.append('\n'.join(file.readlines()))
 
     return textbooks
-
