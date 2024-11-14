@@ -18,7 +18,7 @@ The multi-agent approach employs the following specialized agents:
 **Faithfulness Validator**: Assesses the generated answer's faithfulness to the retrieved context, ensuring it aligns with the reference material.
 
 ## Methodology
-Our approach draws inspiration from:
+Our approach draws inspiration by:
 
 Wang, Y., Xueguang, M., & Wenhu, C. (2023). *Augmenting black-box LLMs with medical textbooks for clinical question answering*. arXiv preprint [arXiv:2309.02233](https://arxiv.org/abs/2309.02233).
 
