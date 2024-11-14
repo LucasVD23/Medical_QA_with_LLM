@@ -1,5 +1,5 @@
 # Deep Learning for NLP - Final Project
-## Improving GPT-4o mini on the MedQA Dataset using Multi-Agent Framework
+## Investigating the improvement of GPT-4o mini on the MedQA Dataset using a Multi-Agent Framework
 
 This repository contains the final project for the Deep Learning for NLP course at the State University of Campinas (Unicamp). The project investigates the use of a multi-agent approach to enhance the performance of the GPT-4o mini language model on the MedQA dataset, focusing on clinical question answering.
 
