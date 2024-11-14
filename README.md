@@ -9,10 +9,13 @@ In this project, we explore the use of specialized agents to support GPT-4o mini
 ## Key Agents
 The multi-agent approach employs the following specialized agents:
 
-Query Rewriter: Reformulates the input query using medical terminology to improve comprehension.
-Chain-of-Thought (CoT) Reasoner: Decomposes complex questions into logical steps to enable step-by-step reasoning.
-FAISS Vectorstore Retriever: Searches for relevant medical passages from textbooks and selects the most pertinent segments.
-Faithfulness Validator: Assesses the generated answer's faithfulness to the retrieved context, ensuring it aligns with the reference material.
+**Query Rewriter**: Reformulates the input query using medical terminology to improve comprehension.
+
+**Chain-of-Thought (CoT) Reasoner**: Decomposes complex questions into logical steps to enable step-by-step reasoning.
+
+**FAISS Vectorstore Retriever**: Searches for relevant medical passages from textbooks and selects the most pertinent segments.
+
+**Faithfulness Validator**: Assesses the generated answer's faithfulness to the retrieved context, ensuring it aligns with the reference material.
 
 ## Methodology
 Our approach draws inspiration from:
