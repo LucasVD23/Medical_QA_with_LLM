@@ -21,6 +21,17 @@ Wang, Y., Xueguang, M., & Wenhu, C. (2023). *Augmenting black-box LLMs with medi
 
 The agents work in tandem to rewrite, analyze, retrieve, and validate information, which ultimately strengthens the language model's accuracy and faithfulness in clinical domains.
 
+## Results
+After implementing the agents and conducting preliminary tests, the final configurations were evaluated again using the full dataset of 1,271 samples. The obtained accuracy metrics for each strategy were as follows:
+
+  - Direct Questioning (No Agents): 68.89%
+  - Chain of Thought (CoT) Agent: 71.95%
+  - Rewriting Agents + CoT: 67.16%
+  - Retrieval-Augmented Generation (RAG) + CoT Agent: 68.65%
+  - Rewriting Agent + RAG + CoT: 68.34%
+
+These results demonstrate that the highest accuracy was achieved by the Chain of Thought (CoT) Agent strategy, with 71.95%. This suggests that using CoT reasoning without additional rewriting or retrieval steps was the most effective approach for this dataset. Further research could explore optimizing these configurations or combining methods in a way that leverages the strengths of the Rewrite, RAG and CoT approaches.
+
 
 # Project Setup
 
